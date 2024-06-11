@@ -239,7 +239,7 @@ def reward_function(params):
         return 1e-3  # Penalize track widths outside the desired range
     else:
         # Give additional reward if the car pass every 100 steps faster than expected
-        if (steps % 100) == 0 and progress > (steps / TOTAL_NUM_STEPS) * 100 and current_angle<10:
+        if (steps % 100) == 0 and progress > (steps / TOTAL_NUM_STEPS) * 100:
             reward_factor = 1.05
         
 #        # Penalize for excessive steering to prevent zig-zag behavior
