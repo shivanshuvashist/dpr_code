@@ -6,6 +6,10 @@ import numpy as np
 # LR 0.00001
 # ENTROPY 0.001
 # Experience 30
+
+# Start speed = 0.8
+# Next change = 1.2
+# Next change = 1.5
     
 def calculate_speed(d_steering_angle, desired_speed, track_length):
     m = (desired_speed - 0.5)/(track_length/2)
