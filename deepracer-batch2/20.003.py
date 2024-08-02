@@ -1,6 +1,8 @@
 import math
 import numpy as np
 
+# Starting min speed 1.4 Max 4
+# Starting default hyperparams
 # Har Har Mahadev
 # This is a good Model for complex tracks
 
